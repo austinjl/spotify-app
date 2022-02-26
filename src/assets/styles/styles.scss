@@ -1,0 +1,39 @@
+$color-light-green: #40a798;
+$color-dark-green: #476268;
+$color-white: #f1f1f1;
+$color-tan: #f5e1da;
+
+#app {
+  background-color: $color-tan
+}
+
+#myContainer {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#nav {
+  font-family: Impact, Charcoal, sans-serif;
+  color: $color-dark-green
+}
+
+.navTitle {
+  font-size: 40px !important;
+  margin: 5px;
+  margin-left: 15px;
+}
+
+.navLink {
+  color: $color-dark-green !important;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.socialMediaText {
+  font-size: 16px !important;
+}
+
+.socialMedia :hover {
+  color: $color-dark-green;
+}
